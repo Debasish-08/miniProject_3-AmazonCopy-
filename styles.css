@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+    
+    
+  }
+  
+  .navBar1{
+    height:60px;
+    width: 100%;
+    height: 80px;
+    color:white;
+    background-color: #0f1111;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+  }
+  .navBar2{
+    height:40px;
+    color:white;
+    background-color: #222f3d;
+    display:flex;
+    align-items: center;
+    
+  }
+  /**.navLogo img{
+    
+    align-items: center;
+    object-fit: contain;
+    margin-right: 8px;
+    margin-left: 3px;
+    padding-top: -8px;
+    padding-bottom: -3px;
+    padding-left: -8px;
+    padding-right: 10px;
+  }**/
+  .navLogo img {
+    width: 90px;
+    height: auto;
+    display: block;
+    /* Center the image */
+  }
+  
+  
+ 
+  .delever_to{
+    color:grey;
+    font-size:15px;
+    white-space: nowrap;
+  }
+  .india{
+    font-size:18px;
+    font-weight: bold;
+    font-weight: 550;
+  }
+  .align{
+    display: flex;
+  }
+  
+  .navLogo{
+    align-items: center;
+    
+  }
+  .cart:hover,.box3:hover,.box4:hover,.flag:hover{
+    outline: 2px solid white;
+    outline-offset: 3px;
+  }
+  
+  .navAddress:hover{
+    outline:2px solid white;
+    outline-offset: 4px;
+  }
+  
+  .navAddress{
+    
+    font-size: 20px;
+  }
+  .navAddress i{
+    
+    font-size: 20px;
+    margin-left: 14px;
+  }
+  .India{
+    font-size:16px;
+    margin-left: -10px;
+    
+  }
+  .navScarch{
+    display:flex;
+    height:40px;
+    width:780px;
+    align-items: center;
+    border: none;
+    margin-left: 20px;
+  }
+  .navScarch .scarchAmazon{
+    width: 75%;
+  }
+  .scarchLogo{
+    background-color: #fd9e35;
+    color: black;
+    height: 84%;
+    width: 10%;
+    display: flex;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    align-items: center;
+    justify-content: center;
+  }
+  .fa-magnifying-glass{
+    position: absolute;
+    padding-right: 30px;
+    
+  }
+  .scarchAmazon{
+    height: 80%;
+    width: 250;
+    border: none;
+    font-size: 1rem;
+  }
+  .catagory{
+    font-size: x-small;
+    font-family: arial;
+    border: none;
+    width: 40px;
+    height: 84%;
+    background-color:lightgrey;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  .hello{
+    font-size: small;
+  }
+  .account{
+    font-weight: 400;
+    white-space: nowrap;
+    font-style: bold;
+  }
+  .return{
+    font-size: small;
+  }
+  .order{
+    font-weight: 400;
+    white-space: nowrap;
+  }
+  /**.box3{
+    margin-right: 8px;
+    margin-left: 40px;
+  }
+  .box4{
+    margin-right: 14px;
+    margin-left: 20px;
+  }
+  .cart{
+    margin-right: 20px;
+  }**/
+  
+  .flag {
+    
+    width: 30px;
+    align-items: center;
+    display: flex;
+    margin-left: 5px;
+    
+  }
+  .flag p{
+    margin-left: -2px;
+  }
+  
+  .navBar2 i,p{
+    padding-left: 4px;
+    font-weight: 450px;
+    
+  }
+  .navBar2 img{
+    padding-right: 0px;
+    height: 30px;
+    margin-left: 40px;
+    align-items: center;
+  }
+  .navBar2 {
+    font-size: small;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .navBar2 img{
+    margin-bottom: 1px;
+  }
+  .all{
+    margin-left: -35px;
+  }
+  .navBar2 i{
+    margin-left: -28px;
+  }
+  .navBar2 p:hover{
+    outline: 2px solid white;
+    outline-offset: 4px;
+  }
+  .heroSection{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_849526-T3/images/G/31/12407722031/nss/Rday/story/launchpad/dashboard/NEW/Handicrafts_parade-1500x400.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    
+  }
+  .welcome{
+    height: 20px;
+    display: flex;
+    background-color: white;
+    width: 95%;
+    align-items: center;
+    font-size: 0.65rem;
+    margin-left: 20px;
+    color: black;
+    justify-content: center;
+    margin-top: 200px;
+    
+  }
+  .square{
+    border: none;
+    height: 200px;
+    width: 21.2%;
+    margin: 12px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    
+  }
+  .shopSection{
+    display: flex;
+    justify-content: center;
+    background-color: #e2e7e6;
+    
+  }
+  .square1,squre2,squere3{
+    align-items: center;
+  }
+  .square1 img{
+    height: 70%;
+    width: 90%;
+    margin-left: 10px;
+  }
+  
+  .square h4,p{
+    margin-left: 10px;
+  }
+  
+  .square2 img{
+    height: 70%;
+    width: 90%;
+    margin-left: 10px;
+  }
+  .square3 img{
+    height: 70%;
+    width: 90%;
+    margin-left: 10px;
+  }
+  
+  .sb{
+    border: none;
+    position: relative;
+    width: 48%;
+    margin: 10px;
+  }
+  .row1, .row2{
+    display: flex;
+    height: 35%;
+  }
+  .sb img{
+    width: 100%;
+    height: 100%;
+  }
+  .sb4, .sb3{
+    height: 120%;
+  }
+  .square p{
+    color: blue;
+    font-size: small;
+  }
+  .square4 p{
+    color: black;
+  }
+  .backToTop{
+    font-size: .85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #37475a;
+    height: 40px;
+    margin-left: 0;
+    margin-bottom: 0;
+    color: white;
+  }
+  .footer2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer2 ul li {
+    margin-bottom: 10px;
+    color: white;
+    font-size: small;
+  }
+  .footer2{
+    display: flex;
+    background-color: #3a4454;
+    justify-content: space-evenly;
+    
+  }
+  .footer2 ul{
+    margin-top: 30px;
+  }
+  
+  .footer2 ul li:first-child{
+    font-weight: 800;
+  }
+  .footer2 ul li:not(:first-child){
+    color: #dddddd;
+  }
+  .footer3{
+    border: pink;
+    height: 150px;
+    background-color: #3a4454;
+  }
+  .footer3 img{
+    width: 80px;
+    height: 25px;
+    align-items: center;
+  }
+  .row1{
+    
+    border-top: .2px solid grey;
+    
+  }
+  .footer3 select{
+    background-color: #3a4454;
+    block-size: 30px;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-left: 60%;
+  }
+  .footer3 img{
+    margin-top: 28px;
+    margin-left: 30%;
+  }
+  .footer3 i{
+    margin-top: 28px;
+    color: white;
+    position: absolute;
+    right: 408px;
+    z-index: 1;
+    
+  }
+  .fa-solid{
+    margin-left: 30px;
+  }
+  .row2{
+    list-style-type: none;
+    color: white;
+    font-size: x-small;
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+  .fa-cart-shopping{
+    margin-right: 30px;
+  }
+  .cart p{
+    margin-left: 25px;
+  }
+  /** **/
+  
+  
+  
